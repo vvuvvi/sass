@@ -1,0 +1,16 @@
+.make{
+  text-align: center;
+  padding-top: 38px;
+  &__row {
+    display: flex;
+    column-gap: 25px;
+    row-gap: 28px;
+    flex-wrap: wrap;
+  }
+  &__card {
+    width: calc(16.66666% - 20.83333px);
+    &-img {
+      width: 100%;
+    }
+  }
+}

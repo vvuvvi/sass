@@ -1,0 +1,31 @@
+.header{
+  padding: 29px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__menu {
+    display: flex;
+    column-gap: 24px;
+  }
+
+  &__link {
+    @include font(13px, 15px);
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+    transition: 1s;
+    &:hover {
+      transition: 1s;
+      text-decoration: underline;
+    }
+  }
+}
+

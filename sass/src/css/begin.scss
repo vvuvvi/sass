@@ -1,0 +1,19 @@
+.begin {
+  padding: 300px 0 197px;
+  text-align: center;
+  color: #fff;
+  background: url("../images/beginbg.png") center/cover no-repeat fixed;
+  &__title {
+    @include font(43px, 46px);
+  }
+  &__text {
+    @include font(15px, 18px);
+    margin: 12px 0 28px;
+  }
+  &__link {
+    @include font(13px, 15px);
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+}

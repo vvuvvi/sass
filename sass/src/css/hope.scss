@@ -1,0 +1,32 @@
+.hope {
+  padding: 124px 0 39px;
+  text-align: center;
+  &__title{
+    font-size: 34px;
+    line-height: 36px;
+    color: #000000;
+  }
+  &__text{
+    font-size: 13px;
+    line-height: 21px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 44px 0 121px;
+  }
+  &__info{
+    background: #9AA8B1;
+    color: #ffffff;
+    padding: 120px 0;
+    &-title{
+      font-size: 43px;
+      line-height: 58px;
+      margin: 24px 0;
+    }
+    &-text{
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.8px;
+    }
+  }
+}
